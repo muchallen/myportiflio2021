@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <!--==========================Bootstrap========================= -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+      
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Allen Potiflio Website</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Allen</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid "  id="home">
+                <div class="home__data ">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Allen</span><br> Software Developer</h1>
+
+                    <a href="#" class="button">Contact</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-behance' ></i></a>
+                    <a href="" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div>
+
+                <div class="home__img " style="padding: .5rem 1rem;
+                margin-bottom: var(--mb-4);
+                border-radius: .5rem;
+                box-shadow: 0 4px 25px rgba(14,36,49,.15);">    
+                    <img src="assets/img/allen2.png" alt="">
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/allenuni2.png" style="padding: .5rem 1rem;
+                        margin-bottom: var(--mb-4);
+                        border-radius: .5rem;
+                        box-shadow: 0 4px 25px rgba(14,36,49,.15);" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'am Allen</h2>
+                        <p class="about__text">I have been working as a web and mobile developer since
+							2018, the period during which I have worked in different
+							environments, from big consultancy companies to start-ups. I
+							am a self-motivated and self-taught professional who likes to
+							solve problems.
+							I merge a passion for usability and user experience with
+							technical knowledge to create cool digital experiences. My
+							repertoire includes programming languages and tools such as
+							React, Angular, Django, Spring Boot, Angular Material, MySQL,
+							PostgreSQL, ASP.NET, and Mobile App Development in Android,
+							Flutter, Swift, and more.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div >
+                    	<div class="d-flex justify-content-around mb-3 skills-tab">
+                        <h5 id="web" class="skills__subtitle active">Web Dev</h5>
+                        <h5 id="mobile" class="skills__subtitle">Mobile Dev</h5>
+                        <h5 id="db" class="skills__subtitle">DB</h5>
+                        <h5 id="devops" class="skills__subtitle">Devops</h5>
+                      	</div>
+                        <div class="skills-info">
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <i class='bx bxl-react skills__icon'></i>
+                                    <span class="skills__name">React</span>
+                                </div>
+                                <div class="skills__bar skills__html">
+                        
+                                </div>
+                                <div>
+                                    <span class="skills__percentage">95%</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <i class='bx bxl-angular skills__icon text-danger'></i>
+                                    <span class="skills__name text-danger">Angular</span>
+                                </div>
+                                <div class="skills__bar skills__css bg-danger">
+                                    
+                                </div>
+                                <div>
+                                    <span class="skills__percentage">90%</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <i class='bx bxl-nodejs skills__icon text-success' ></i>
+                                    <span class="skills__html text-success">Nodejs</span>
+                                </div>
+                                <div class="skills__bar skills__html bg-success">
+                                    
+                                </div>
+                                <div>
+                                    <span class="skills__percentage">95%</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <i class='bx bxl-spring-boot text-success'></i>
+                                    <span class="skills__name text-success">Spring Boot</span>
+                                </div>
+                                <div class="skills__bar skills__ux bg-success">
+                                    
+                                </div>
+                                <div>
+                                    <span class="skills__percentage">90%</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <i class='bx bxl-django text-secondary skills__icon'></i>
+                                    <span class="skills__name text-secondary">Python Django</span>
+                                </div>
+                                <div class="skills__bar skills__ux bg-secondary">
+                                    
+                                </div>
+                                <div>
+                                    <span class="skills__percentage">90%</span>
+                                </div>
+                            </div>
+                            <div class="skills__data">
+                                <div class="skills__names">
+                                    <i class='bx bxl-windows skills__icon'></i>
+                                    <span class="skills__name">APS.NET</span>
+                                </div>
+                                <div class="skills__bar skills__ux">
+                                    
+                                </div>
+                                <div>
+                                    <span class="skills__percentage">90%</span>
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+
+                    </div>
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+
+                <div class="work__container bd-grid">
+                    <div class="work__img">
+                        <img src="assets/img/work1.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work2.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work4.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work5.jpg" alt="">
+                    </div>
+                    <div class="work__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Enviar" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Marlon</p>
+            <div class="footer__social">
+                <a href="linkedin.com/in/allen-muchini-448650122" class="footer__icon"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/muchallen" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+            </div>
+            
+            <p>&#169; 2021 copyright all right reserved</p>
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+
+       
+    </body>
+</html>
