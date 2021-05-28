@@ -355,6 +355,156 @@ devops.addEventListener("click", function webClicked(e) {
 })
 
 
+var about__1 = document.querySelector("#about__1")
+var experience = document.querySelector("#experience")
+var education = document.querySelector("#education")
+var about_content = document.querySelector(".about__container")
+var about_titles = document.querySelectorAll('.about__titles')
+
+about__1.addEventListener("click",(e)=>{
+    about_titles.forEach(title=>title.classList.remove('active'));
+    document.querySelector('#about__1').classList.add("active")
+    about_content.innerHTML=`
+    <div class="about__img  align-self-start">
+    <img src="assets/img/allen2.png" style="padding: .5rem 1rem;
+    margin-bottom: var(--mb-4);
+    border-radius: .5rem;
+    " alt="">
+</div><div style="padding: 2rem 2rem;
+margin-bottom: var(--mb-4);
+border-radius: .5rem;
+box-shadow: 0 4px 25px rgba(14,36,49,.15);">
+    <h2 class="about__subtitle">Hi, I'am Allen</h2>
+                        <p class="about__text">I have been working as a web and mobile developer since
+							2018, the period during which I have worked in different
+							environments, from  start-ups to big consultancy companies . I
+							am a self-motivated and self-taught professional who likes to
+							solve problems.
+							I merge a passion for usability and user experience with
+							technical knowledge to create cool digital experiences. My
+							repertoire includes programming languages and tools such as
+							React, Angular, Django, Spring Boot, Angular Material, MySQL,
+							PostgreSQL, ASP.NET, and Mobile App Development in Android,
+							Flutter, Swift, and more.</p> 
+                            </div>
+    `
+
+})
+education.addEventListener("click",(e)=>{
+
+    about_titles.forEach(title=>title.classList.remove('active'));
+    document.querySelector('#education').classList.add("active")
+
+    about_content.innerHTML=`
+    <div class="about__img  align-self-start">
+    <img src="assets/img/allen2.png" style="padding: .5rem 1rem;
+    margin-bottom: var(--mb-4);
+    border-radius: .5rem;
+    " alt="">
+</div>
+                                                <div id="education-data" class="p-4 about__text" style="padding: .5rem 1rem;
+                                        margin-bottom: var(--mb-4);
+                                        border-radius: .5rem;
+                                        box-shadow: 0 4px 25px rgba(14,36,49,.15);">
+                                        <table>
+                                        <thead>
+                                        <th></th>
+                                        <th></th>
+                                        </thead>
+                                        <tbody>
+                                        <tr>
+                                        <td  class="d-flex  align-content-start"><p><strong>University </strong></p></td>
+                                         <td> <p>: National University of Science and technology</p>  </td>
+                                        </tr>
+                                        <tr ><td  class="d-flex  align-content-start"><p><strong>Major</strong> </p></td>
+                                         <td> <p>: BSc Honours Degree in Computer Science</p>  </td></tr>
+                                         <tr><td  class="d-flex  align-content-start"><p><strong>Duration </strong></p></td>
+                                         <td> <p>: Sept 2014 - June 2018</p>  </td></tr>
+                                        </tbody>
+                                        </table>
+                                        </div>
+                           
+    `
+
+})
+experience.addEventListener("click",(e)=>{
+    about_titles.forEach(title=>title.classList.remove('active'));
+    document.querySelector('#experience').classList.add("active")
+    about_content.innerHTML=`
+    <div class="about__img  align-self-start">
+                        <img src="assets/img/allen2.png" style="padding: .5rem 1rem;
+                        margin-bottom: var(--mb-4);
+                        border-radius: .5rem;
+                        " alt="">
+                    </div>
+                    
+                    <div>
+                        
+                        <div class="about__content">
+                            <div class="p-4 about__text" style="padding: .5rem 1rem;
+                                        margin-bottom: var(--mb-4);
+                                        border-radius: .5rem;
+                                        box-shadow: 0 4px 25px rgba(14,36,49,.15);">
+                            <table >
+                            <thead>
+                            <th></th>
+                            <th></th>
+                            </thead>
+                            <tbody>
+                            <tr>
+                            <td><p><strong>Company</strong></p></td>
+                             <td> <p>: CentricData</p>  </td>
+                            </tr>
+                            <tr><td><p><strong>Position</strong> </p></td>
+                             <td> <p>: Software Developer</p>  </td></tr>
+                             <tr><td><p><strong>Duration </strong></p></td>
+                             <td> <p>: 2019 - Current</p>  </td></tr>
+                             <tr><td class="d-flex  align-content-start"><p><strong>Duties</strong> </p></td>
+                             <td> <p>: Frontend development (Angular,React, VueJs ,Angular Material,etc ) Backend development(SpringBoot , Django, Express, Laravel etc)
+                                            Mobile App development (Android, IOS and Cross Platform)
+                                            Web and Mobile app designing (Adobe Photoshop, )
+                                            Design easy user interfaces and great user experiences for the digital
+                                            platforms of small companies
+                                            CMS management (WordPress , Drupal etc)
+                                            VPS configuration and optimization (Apache & Nginx)</p>  </td></tr>
+                            </tbody>
+                            </table>
+                            </div>
+                            <div class="p-4 about__text" style="padding: .5rem 1rem;
+                                        margin-bottom: var(--mb-4);
+                                        border-radius: .5rem;
+                                        box-shadow: 0 4px 25px rgba(14,36,49,.15);">
+                            <table>
+                            <thead>
+                            <th></th>
+                            <th></th>
+                            </thead>
+                            <tbody>
+                            <tr>
+                            <td><p><strong>Company</strong></p></td>
+                             <td> <p>: Keytrackz Technologies</p>  </td>
+                            </tr>
+                            <tr><td><p><strong>Position</strong> </p></td>
+                             <td> <p>: Juniour Software Developer</p>  </td></tr>
+                             <tr><td><p><strong>Duration </strong></p></td>
+                             <td> <p>: 6 Months</p>  </td></tr>
+                             <tr><td class="d-flex  align-content-start"><p><strong>Duties</strong> </p></td>
+                             <td> <p>: Developing and Maintaining Enterprise Systems
+                                    Developing Systems in Spring MVC Framework.
+                                    Mobile Development ( Android, Cross Platform and IOS)
+                                    Development using the following languages (Java, C#, Python, PHP,
+                                    SQL MySQL, HTML, Java-Script etc.)</p>  </td></tr>
+                            </tbody>
+                            </table>
+                            </div>
+
+    `
+
+})
+
+
+
+
 
 
 
