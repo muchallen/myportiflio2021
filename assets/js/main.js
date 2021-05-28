@@ -414,12 +414,12 @@ education.addEventListener("click",(e)=>{
                                         <tbody>
                                         <tr>
                                         <td  class="d-flex  align-content-start"><p><strong>University </strong></p></td>
-                                         <td> <p>: National University of Science and technology</p>  </td>
+                                         <td> <p class="mx-2">National University of Science and technology</p>  </td>
                                         </tr>
                                         <tr ><td  class="d-flex  align-content-start"><p><strong>Major</strong> </p></td>
-                                         <td> <p>: BSc Honours Degree in Computer Science</p>  </td></tr>
-                                         <tr><td  class="d-flex  align-content-start"><p><strong>Duration </strong></p></td>
-                                         <td> <p>: Sept 2014 - June 2018</p>  </td></tr>
+                                         <td> <p class="ml-4 mb-2">BSc Honours Degree in Computer Science</p>  </td></tr>
+                                         <tr><td class="d-flex  align-content-start"><p><strong>Duration </strong></p></td>
+                                         <td> <p class="ml-4 mb-2">Sept 2014 - June 2018</p>  </td></tr>
                                         </tbody>
                                         </table>
                                         </div>
@@ -445,7 +445,7 @@ experience.addEventListener("click",(e)=>{
                                         margin-bottom: var(--mb-4);
                                         border-radius: .5rem;
                                         box-shadow: 0 4px 25px rgba(14,36,49,.15);">
-                            <table >
+                            <table>
                             <thead>
                             <th></th>
                             <th></th>
@@ -453,14 +453,14 @@ experience.addEventListener("click",(e)=>{
                             <tbody>
                             <tr>
                             <td><p><strong>Company</strong></p></td>
-                             <td> <p>: CentricData</p>  </td>
-                            </tr>
+                            <td> <p class="m-2">CentricData</p>  </td></tr>
+                            
                             <tr><td><p><strong>Position</strong> </p></td>
-                             <td> <p>: Software Developer</p>  </td></tr>
+                             <td> <p class="ml-4 mb-2">Software Developer</p>  </td></tr>
                              <tr><td><p><strong>Duration </strong></p></td>
-                             <td> <p>: 2019 - Current</p>  </td></tr>
+                             <td> <p class="ml-4 mb-2">2019 - Current</p>  </td></tr>
                              <tr><td class="d-flex  align-content-start"><p><strong>Duties</strong> </p></td>
-                             <td> <p>: Frontend development (Angular,React, VueJs ,Angular Material,etc ) Backend development(SpringBoot , Django, Express, Laravel etc)
+                             <td> <p class="ml-4 mb-2" >Frontend development (Angular,React, VueJs ,Angular Material,etc ) Backend development(SpringBoot , Django, Express, Laravel etc)
                                             Mobile App development (Android, IOS and Cross Platform)
                                             Web and Mobile app designing (Adobe Photoshop, )
                                             Design easy user interfaces and great user experiences for the digital
@@ -482,14 +482,14 @@ experience.addEventListener("click",(e)=>{
                             <tbody>
                             <tr>
                             <td><p><strong>Company</strong></p></td>
-                             <td> <p>: Keytrackz Technologies</p>  </td>
+                             <td> <p class="m-2">Keytrackz Technologies</p>  </td>
                             </tr>
                             <tr><td><p><strong>Position</strong> </p></td>
-                             <td> <p>: Juniour Software Developer</p>  </td></tr>
+                             <td> <p class="ml-4 mb-2">Juniour Software Developer</p>  </td></tr>
                              <tr><td><p><strong>Duration </strong></p></td>
-                             <td> <p>: 6 Months</p>  </td></tr>
+                             <td> <p class="ml-4 mb-2">6 Months</p>  </td></tr>
                              <tr><td class="d-flex  align-content-start"><p><strong>Duties</strong> </p></td>
-                             <td> <p>: Developing and Maintaining Enterprise Systems
+                             <td> <p class="ml-4 mb-2">Developing and Maintaining Enterprise Systems
                                     Developing Systems in Spring MVC Framework.
                                     Mobile Development ( Android, Cross Platform and IOS)
                                     Development using the following languages (Java, C#, Python, PHP,
