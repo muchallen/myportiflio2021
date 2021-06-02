@@ -476,3 +476,7 @@ img{
 .experience h5{
   cursor: pointer;
 }
+
+.home__title-color{
+  color: var(--third-color);
+}
